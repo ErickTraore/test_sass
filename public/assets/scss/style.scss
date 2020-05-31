@@ -1,0 +1,19 @@
+    @import "variable_overrides";
+    @import "../node_modules/bootstrap/scss/bootstrap.scss";
+    .container {
+        margin: 6rem;
+        padding: 1.5rem 1.5rem;
+        border: 0.1rem solid rgb(202, 35, 13);
+        background: rgb(50, 86, 205);
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+    }
+    
+    .row {
+        background: white;
+        border: 0.1rem solid rgb(202, 35, 13);
+        // padding: 1.5rem 1.5rem 0 1.5rem;
+    }
